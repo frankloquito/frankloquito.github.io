@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juguetería</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="logo.png">
+  <script src="https://kit.fontawesome.com/caec13e62b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Logo de la juguetería">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">  <i class="fa-solid fa-house"></i> inicio</a></li>
+        <li><a href="productos.html"> <i class="fa-solid fa-shop"></i> Productos</a></li>
+        <li><a href="contacto.html"> <i class="fa-solid fa-address-book"></i>Contacto</a></li>
+    
+      </ul>
+    </nav>
+  </header>
+
+      
+  <main >
+    <section class="contacto">
+      <h1>Contacto</h1>
+      <form action="procesar_formulario.php" method="POST"> <!-- Aquí deberías agregar el archivo PHP que procese el formulario -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  
+    
+  <footer>
+    <p>&copy; 2023 Juguetería el Mundo Mágico. Todos los derechos reservados.</p>
+  </footer>
+
+    
+  
+
+</body>
+</html>
+  </header>
